@@ -1,5 +1,10 @@
 language: node_js
 node_js:
-  - "8"
+- '8'
 script:
-  - npm build
+- npm build
+deploy:
+  provider: heroku
+  app: ki-react-pwa
+  api_key:
+    secure: QCKAe+HCr6l4T6XFlLQ9XYtwQqXGPaOELSN3wPNGk+D/bcWt7JK0rtPpaqZ269mArqmS1ZJ0LqjQFs7otYNnQg/w9yrP8klcydAsFvTU+YMl2BZgZzKBZCkDCK2iFO1bktHyE/shNKVYMnDl+R1Va0KN1waqHy9VomH352QST5yzl8TVd006tx9nYCstDZ4RDcWV4N5mlmbDYsFfBD3KRhYlax8/zNA5j4Gp7ezIFbs4eAYmDn0/6ce0yy3aROB/JtF6IrBDJ0buqwGS1rliSrCS4kOmGNHJaRGl8CjnRDQX2Perb9XwMXTNMq69nQDTB5ye+/GXZbwBTSCSn4PiJzCnD44tIcJTilB7zlJJYnrYPvW1GVeah9XZiWTtCjsJ/oxXSz9zPvcCAINkEGmpiU1iOy/sphRxgUAb4CzGLhTZwtO4tFidYyGEnQfrxNuW1dqzfZ1DIRSnaNa5tuWGmowg22YtnVp+rK2TsL4bOTaZVCT7opDwyif1vt4rFUUtruVMFnZLOCFhMJ0loCjlbt7nAHTwXM+RDmvz8hKTx7MB0YzDhExq58Mx7lP+UkcSlgrkWDGK7ljzvxzvfgOMr8EFmxnOnCpxGBDWszk+F1MTjIuJf2L8uewK/jGyLtr9stRbXAZh4IJx8NMbBH/IGZ3n2BdDq/Op5oceR4/Yi5Q=
